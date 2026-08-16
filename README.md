@@ -56,21 +56,6 @@ This project simulates a real-world cloud asset ingestion pipeline — the kind 
 
 ---
 
-## 📸 Implementation Proof
-
-*(Add screenshots below)*
-
-**1. Data Stored in DynamoDB**
-`![DynamoDB Table](screenshots/dynamodb-table.png)`
-
-**2. Real-Time SNS Email Notification**
-`![SNS Email Alert](screenshots/sns-email.png)`
-
-**3. Lambda CloudWatch Logs**
-`![CloudWatch Logs](screenshots/cloudwatch-logs.png)`
-
----
-
 ## 📄 Sample Input
 
 `sample_data/test.csv`
@@ -81,24 +66,7 @@ id,name,value
 103,Gamma,300
 ```
 
----
 
-## 📂 Project Structure
-
-```
-aws-cloud-asset-handler/
-├── lambda_function/
-│   └── handler.py
-├── sample_data/
-│   └── test.csv
-├── screenshots/
-│   ├── dynamodb-table.png
-│   ├── sns-email.png
-│   └── cloudwatch-logs.png
-└── README.md
-```
-
----
 
 ## 💡 Key Takeaways
 
