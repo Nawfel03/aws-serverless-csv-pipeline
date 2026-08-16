@@ -28,7 +28,6 @@ This project simulates a real-world cloud asset ingestion pipeline — the kind 
                        (Security Auditing)
 ```
 
----
 
 ## 🛠️ AWS Services Used (9 Total)
 
